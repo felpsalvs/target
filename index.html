@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Target</title>
+  </head>
+  <body class="bg-gray-100 p-5">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold mb-5">Perguntas e Respostas</h1>
+
+      <div class="bg-white shadow-md rounded-lg p-4 mb-5">
+        <h2 class="text-xl font-semibold">Questão 1</h2>
+        <p>Ao final do processamento, qual será o valor da variável SOMA?</p>
+        <button
+          class="bg-red-800 text-white px-4 py-2 rounded mt-3"
+          onclick="showAnswer('q1')"
+        >
+          Mostrar Resposta
+        </button>
+        <p id="q1" class="mt-2 hidden">Resposta: <span></span></p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-4 mb-5">
+        <h2 class="text-xl font-semibold">Questão 2</h2>
+        <p>Calcule se um número pertence à sequência de Fibonacci.</p>
+        <button
+          class="bg-red-800 text-white px-4 py-2 rounded mt-3"
+          onclick="showAnswer('q2')"
+        >
+          Mostrar Resposta
+        </button>
+        <p id="q2" class="mt-2 hidden">Resposta: <span></span></p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-4 mb-5">
+        <h2 class="text-xl font-semibold">Questão 3</h2>
+        <p>Faturamento diário da distribuidora.</p>
+        <button
+          class="bg-red-800 text-white px-4 py-2 rounded mt-3"
+          onclick="showAnswer('q3')"
+        >
+          Mostrar Resposta
+        </button>
+        <p id="q3" class="mt-2 hidden">Resposta: <span></span></p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-4 mb-5">
+        <h2 class="text-xl font-semibold">Questão 4</h2>
+        <p>Cálculo de percentual de faturamento por estado.</p>
+        <button
+          class="bg-red-800 text-white px-4 py-2 rounded mt-3"
+          onclick="showAnswer('q4')"
+        >
+          Mostrar Resposta
+        </button>
+        <p id="q4" class="mt-2 hidden">Resposta: <span></span></p>
+      </div>
+
+      <div class="bg-white shadow-md rounded-lg p-4 mb-5">
+        <h2 class="text-xl font-semibold">Questão 5</h2>
+        <p>Inverta os caracteres de uma string.</p>
+        <button
+          class="bg-red-800 text-white px-4 py-2 rounded mt-3"
+          onclick="showAnswer('q5')"
+        >
+          Mostrar Resposta
+        </button>
+        <p id="q5" class="mt-2 hidden">Resposta: <span></span></p>
+      </div>
+    </div>
+  </body>
+</html>
